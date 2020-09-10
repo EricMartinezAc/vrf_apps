@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VRF controller</string>
+    <string name="title_activity_main_inventaio">MainInventaioActivity</string>
+    <string name="tab_text_1">Herramientas</string>
+    <string name="tab_text_2">Insumos</string>
+    <string name="tab_text_3">Bodega</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="created_by">Created By: Eric Martinez Acelas</string>
+    <string name="version">versión 1.0.1</string>
+</resources>

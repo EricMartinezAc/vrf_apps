@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp"
+    tools:context="com.vrfing.vrfcontroller.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sloganvrf"
+        android:contentDescription="TODO" />
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <EditText
+            android:textColor="@android:color/holo_orange_dark"
+            android:hint="INGRESE EL CORREO"
+            android:textAlignment="center"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/index_etMail"
+            android:gravity="center_horizontal"
+            android:inputType="textEmailAddress"
+            android:autofillHints="" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/holo_orange_dark"
+            android:hint="INGRESE SU CONTRASEÑA"
+            android:textAlignment="center"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/index_etPsw"
+            android:gravity="center_horizontal"
+            android:inputType="textPassword"
+            android:autofillHints="" />
+
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_orange_dark"
+            android:id="@+id/index_btnIngresar"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:onClick="onClick"
+            android:text="INGRESAR" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@android:color/darker_gray"
+            android:text="@string/created_by"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:textColor="@android:color/darker_gray"
+            android:text="@string/version"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

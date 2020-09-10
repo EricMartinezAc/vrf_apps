@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="lista_clasesElementosInventario">
+        <item>herramienta</item>
+        <item>herramienta especial</item>
+        <item>insumos de aseo</item>
+        <item>insumos de mtto industrial</item>
+        <item>stock de repuestos</item>
+        <item>stock de EPP</item>
+        <item>almacén</item>
+        <item>elementos de oficina</item>
+    </string-array>
+
+</resources>

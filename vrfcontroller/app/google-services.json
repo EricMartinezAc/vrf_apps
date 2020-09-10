@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1025768727175",
+    "firebase_url": "https://vrfcontroller-13c92.firebaseio.com",
+    "project_id": "vrfcontroller-13c92",
+    "storage_bucket": "vrfcontroller-13c92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025768727175:android:e1404d4172ab06445a8e22",
+        "android_client_info": {
+          "package_name": "com.vrfing.vrfcontroller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025768727175-pp5fu3m1e4pvh7vf3dm4k5gqkpmhubd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vrfing.vrfcontroller",
+            "certificate_hash": "2345110282945601d6f37cac06d4346d1b9f7462"
+          }
+        },
+        {
+          "client_id": "1025768727175-dmmogtegh9ia5qo3oc4g8rob4933m70n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsed5DKH1btDurddRFchwsggUC8xWitQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025768727175-dmmogtegh9ia5qo3oc4g8rob4933m70n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
